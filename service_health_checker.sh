@@ -14,7 +14,7 @@ check_service() {
              log "SERVICE OK: $service is running"
              echo "[OK] $service"
              else
-             log "SERVIVCE DOWN: $service is not running"
+             log "SERVICE DOWN: $service is not running"
              echo "[DOWN] $service"
              fi
 }
